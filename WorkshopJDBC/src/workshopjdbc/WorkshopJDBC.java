@@ -15,6 +15,7 @@ public class WorkshopJDBC {
         Personne p2 = new Personne(1, "Ali", "Bouazizi");
         sp.modifier(p2);
 
+
         // ✅ Supprimer une personne (ID = 1)
         sp.supprimer(1);
 
